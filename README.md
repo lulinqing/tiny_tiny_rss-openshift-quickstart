@@ -11,4 +11,4 @@ You can now checkout your RSS application at:
 
     http://<app name>-<your namespace>.rhcloud.com
 
-This app can be shared by multipul users. The default user credential is "admin"/"password".
+This app can be shared by multiple users. The default user credential is "admin"/"password".
