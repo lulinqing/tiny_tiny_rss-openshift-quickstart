@@ -10,3 +10,5 @@ Create a PHP 5 application + a PostgreSQL 8 cartridge to the app, and import all
 You can now checkout your RSS application at:
 
     http://<app name>-<your namespace>.rhcloud.com
+
+This app can be shared by multiple users. The default user credential is "admin"/"password".
