@@ -8,7 +8,7 @@
 	define('DB_USER', $_ENV['OPENSHIFT_POSTGRESQL_DB_USERNAME'] );
 	define('DB_NAME', $_ENV['OPENSHIFT_APP_NAME'] );
 	define('DB_PASS', $_ENV['OPENSHIFT_POSTGRESQL_DB_PASSWORD'] );
-	//define('DB_PORT', '5432'); // when neeeded, PG-only
+	define('DB_PORT', $_ENV['OPENSHIFT_POSTGRESQL_DB_PORT'] ); // when neeeded, PG-only
 
 	define('MYSQL_CHARSET', 'UTF8');
 	// Connection charset for MySQL. If you have a legacy database and/or experience
